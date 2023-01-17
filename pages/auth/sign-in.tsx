@@ -66,14 +66,9 @@ const SignIn = () => {
             Sign In
           </Button>
         </form>
-        <div className="border border-slate-200 my-8"></div>
-
-        <Button size="lg" isFullWidth>
-          Sign In With Google
-        </Button>
 
         <p className="mt-8 font-sans text-sm text-center">
-          Don&lsquo;t have an account?&nbsp;
+          Don&lsquo;t have an account ?&nbsp;
           <Link className="text-blue-800" href="/auth/sign-up">
             Sign up here
           </Link>

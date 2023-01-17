@@ -31,7 +31,7 @@ const TextInput: React.FC<Props> = ({
         )}
       />
       {hasError && (
-        <p className="font-sans text-sm text-red-500">{errorMessage}</p>
+        <p className="font-sans text-sm text-red-500 mb-4">{errorMessage}</p>
       )}
     </div>
   );
